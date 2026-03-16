@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url('./assets/fonts/HindSiliguri/HindSiliguri-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url('./assets/fonts/HindSiliguri/HindSiliguri-Bold.ttf');
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  padding: 40px 0;
+  background: #FFF;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo div {
+  width: 40px;
+  height: 40px;
+  background-color: #FF7235;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Hind Siliguri";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95%;
+  border-radius: 50%;
+}
+
+.logo p {
+  color: var(--Dark, #292830);
+  font-family: "Hind Siliguri";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 95%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.menu li .navlink {
+  color: var(--Dark, #292830);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 95%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navBtn {
+  text-decoration: none;
+}
+
+.navBtn button {
+  border-radius: 8px;
+  border: 1px solid var(--Main-color, #FF7235);
+  background: #FFF;
+  color: var(--Main-color, #FF7235);
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%;
+  padding: 15px 20px;
+}

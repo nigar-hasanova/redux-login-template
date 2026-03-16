@@ -1,0 +1,85 @@
+.hero,
+.homeThird {
+    padding: 128px 0;
+}
+
+.heroBody {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    justify-content: space-between;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.leftSide h1 {
+    color: var(--Dark, #292830);
+    font-family: "Hind Siliguri";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    width: 650px;
+}
+
+.leftSide p,
+.leftBottom p {
+    color: var(--Light, #BDBDBD);
+    font-family: "Hind Siliguri";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.leftBottom {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.leftBottom button {
+    display: inline-flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Main-color, #FF7235);
+    color: #FFF;
+    font-family: "Hind Siliguri";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+}
+
+.secondBody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.secondBody .top {
+    background: var(--Main-color, #FF7235);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.secondBody .top img{
+    margin-top: 87px;
+    display: block;
+}
+
+.secondBody .bottom {
+    display: flex;
+    column-gap: 108px;
+    align-items: center;
+    justify-content: space-between;
+}
